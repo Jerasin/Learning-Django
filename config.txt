@@ -1,0 +1,31 @@
+//Step 1 : Create Virtual Environment   " virtualenv   'name-env' "
+
+//Step 2 : Activate Virtual Environment  "Scripts\activate"  or Close Activate Environment "deactivate"
+
+//Step 3: 
+Option1: Install Django    "pip install django" or you can select version django "pip install django==3.0.8"
+
+Option2: Create file package.txt in path and you can add lib name in you file and use command "pip install -r  "filename.txt" "
+
+//Step 4 : Create Project " django-admin startproject "nameproject" "
+
+//Step 5 : Run Project "python manage.py runserver"
+
+//Step 6 : Create App "python manage.py startapp myapp"
+
+
+//--Start Model.py--// 
+
+//Step 1 : This case create virtual Model " python manage.py makemigrations " (อยู่ในสถานะรอสร้างยังสามารถแก้ไขได้)
+//step 2 : This case create  Model " python manage.py migrate " (อยู่ในสถานะสร้าง table เรียบร้อย)
+
+//--End Model.py--// 
+
+//--Start Admin.py--//
+
+//Step 1 : Create User Admin " python manage.py createsuperuser --username admin --email admin@gmail.com "
+password : aaaaaa@2
+//Step 2 : Open web and go to http://127.0.0.1:8000/admin
+//Step 3 : Admin Config
+
+//--End Admin.py--// 
