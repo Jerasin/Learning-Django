@@ -1,3 +1,7 @@
 django
 djangorestframework
 django-taggit
+
+// สำหรับให้ forms รองรับ bootstrap
+django-crispy-forms 
+python-slugify

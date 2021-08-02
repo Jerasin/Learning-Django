@@ -19,9 +19,11 @@
       {% endfor %}
     </ul>
 
-    <a href={% url 'myapp:index' id=5 %}>Go to Index Page</a>
+    <a href={% url 'myapp:index' %}>Go to Index Page</a>
     <br>
     <a href={% url 'myapp:hello' id=3 %}>Go to Hello Page</a>
     <br>
     <a href={% url 'myapp:article' year=2000 slug='index-test' %}>Go to Article Page</a>
+    <br>
+    <a href={% url 'book:index' %}>Go to Book Page</a>
 {% endblock %}
