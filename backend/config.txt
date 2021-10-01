@@ -2,6 +2,17 @@
 
 //Step 2 : Activate Virtual Environment  "Scripts\activate"  or Close Activate Environment "deactivate"
 
+
+// All Lib
+django
+djangorestframework
+django-taggit
+python-slugify
+// สำหรับให้ forms รองรับ bootstrap
+django-crispy-forms 
+
+
+
 //Step 3: 
 Option1: Install Django    "pip install django" or you can select version django "pip install django==3.0.8"
 
