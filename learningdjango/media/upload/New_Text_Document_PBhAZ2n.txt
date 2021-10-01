@@ -1,0 +1,13 @@
+No: #69251
+IP: 191.101.38.12
+User: Administrator
+Pass: 8i6Lkl9iN]kfdit[y'
+Expire: 24/02/2564 (30 วัน)
+
+////////////////////////////
+MySql 
+PORT = 3306
+X Protocol PORT = 33060
+
+bunindeck@gmail.com
+bunindeck@12
